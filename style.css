@@ -1,0 +1,231 @@
+body {
+  min-height: 700px;
+
+}
+/* <!-- Navbar --> */
+#navbar-navigation{
+  z-index: 1000;
+  top: 0;
+  position: sticky;
+}
+.navbar-brand {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:active {
+  color: #FF8C21;
+}
+/*<!-- End Navbar --> */
+
+/* <!-- Welcome --> */
+.jumbotron {
+  background-image: url(images/bgHeader1.png);
+    background-size: cover;
+    height: 900px;
+    margin-top: -150px;
+}
+.jumbotron .Kalian {
+  color: #045847;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: start;
+  margin-top: 300px;
+}
+.jumbotron .Kalian span {
+  color: #FFA51F;
+}
+/* <!-- End Welcome --> */
+
+/* <!-- Middle Content --> */
+
+.jumbotron1 {
+  background-image: url(images/bgBatibo.png);
+  background-size: cover;
+  height: 1000px;
+  margin-top: -3%;
+}
+.jumbotron1 .titleAbout {
+  color: #24AD65;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40%;
+}
+.jumbotron1 .paragrafAbout {
+  color: #FF8C21;
+  font-size: 36px;
+  text-align: center;
+} 
+/* <!-- End Middle Content --> */
+
+/* <!-- Middle Content 2--> */
+.Petani {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 8%;
+}
+.Sayur {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+}
+.Pesan {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+  margin-left: 8%;
+}
+.title1 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.title2 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.title3 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.paragraf1 {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragraf2 {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragraf3 {
+  color: #FF8C21;
+  font-size: 36px;
+}
+/* <!-- End Middle Content 2 --> */
+
+/* <!-- Middle Content 3 --> */
+.Services {
+  display: flex;
+  justify-content: center;
+}
+.Shoping {
+  text-align: center;
+  margin-top: 15px;
+
+}.Delivery {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container-fluid{
+  background: #B7EBA7 !important;
+  border-radius: 15px;
+  height: 900px;
+}
+.shopingLogo {
+  text-align: center;
+  margin-top: 50px;
+  width: 130px;
+  height: 160;
+}
+.ShopingTitle {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.pragrafShop {
+  color: #24AD65;
+  font-size: 36px;
+}
+.deliveryLogo {
+  text-align: center;
+  height: 130;
+  width: 160;
+}
+.DeliveryTilte {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragrafDeliv {
+  color: #24AD65;
+  font-size: 36px;
+}
+/*  <!-- End Middle Content 3 --> */
+
+/* <!-- Middle Content 4 --> */
+.download {
+  text-align: center;
+  margin-top: 30px;
+}
+.container app {
+  margin-top: 20%;
+}
+.screen{ 
+  width: 235px;
+  height: 521px;
+}
+.downloadApp{ 
+  width: 341px;
+  height: 277px;
+}
+/* <!-- End Middle Content 4  --> */
+
+/* <!-- Footer --> */
+.footer1 {
+  background: #045847 !important;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.tabel {
+ margin-left: 15%;
+}
+.titleContact {
+  color: #FF8C21;
+  text-align: center;
+}
+.titleBatibo {
+  color: #FF8C21;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.text1 {
+  color: #de954a;
+  margin-top: 1rem;
+  text-align: start;
+}
+.text2 {
+  color: #de954a;
+  margin-top: 20px;
+  text-align: center;
+}
+.text3 {
+  color: #de954a;
+  margin-top: 20px;
+  text-align: center;
+}
+.text4 {
+  color: #de954a;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text5 {
+  color: #de954a;
+  margin-top: 1px;
+  text-align: center;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+/* <!-- End Footer --> */
