@@ -1,10 +1,16 @@
 body {
   min-height: 700px;
-
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* <!-- Navbar --> */
 #navbar-navigation{
-  z-index: 1000;
+  z-index: 800;
   top: 0;
   position: sticky;
 }
@@ -25,7 +31,7 @@ body {
   background-image: url(images/bgHeader1.png);
     background-size: cover;
     height: 900px;
-    margin-top: -150px;
+    margin-top: -145px;
 }
 .jumbotron .Kalian {
   color: #045847;
@@ -229,3 +235,39 @@ body {
   margin-left: 20px;
 }
 /* <!-- End Footer --> */
+/*  
+@media (min-width: 320px) { 
+  .jumbotron{
+    background-image: url(images/bgHeader1.png);
+    background-size: cover;
+    height: 500px;
+    width: 70vh;
+    margin-top: -145px;
+  }
+  .jumbotron .kalian {
+    color: #045847;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: start;
+    margin-top: 100px;
+  }
+  .jumbotron1 {
+    background-image: url(images/bgBatibo.png);
+    background-size: cover;
+    height: 500px;
+    margin-top: -32px;
+  }
+}  */
+
+
+/* @media (min-width: 992px) { 
+  .jumbotron {
+    background-image: url(images/bgHeader1.png);
+      background-size: cover;
+      height: 900px;
+      width: 100%;
+      margin-top: -145px;
+  }
+ 
+ } */
+
