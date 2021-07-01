@@ -1,4 +1,7 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}body {
   min-height: 700px;
 }
 * {
@@ -15,8 +18,8 @@ html {
   position: sticky;
 }
 .navbar-brand {
-  font-family: "Poppins";
   font-weight: bold;
+  color:#FF8C21
 }
 .nav-link {
   color: white;
@@ -27,7 +30,7 @@ html {
 /*<!-- End Navbar --> */
 
 /* <!-- Welcome --> */
-.jumbotron {
+/* .jumbotron {
   background-image: url(images/bgHeader1.png);
     background-size: cover;
     height: 900px;
@@ -42,9 +45,464 @@ html {
 }
 .jumbotron .Kalian span {
   color: #FFA51F;
-}
+} */
 /* <!-- End Welcome --> */
+/* <!-- Middle Content --> */
 
+/* .jumbotron1 {
+  background-image: url(images/bgBatibo.png);
+  background-size: cover;
+  height: 1000px;
+  margin-top: -3%;
+}
+.jumbotron1 .titleAbout {
+  color: #24AD65;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40%;
+}
+.jumbotron1 .paragrafAbout {
+  color: #FF8C21;
+  font-size: 36px;
+  text-align: center;
+}  */
+/* <!-- End Middle Content --> */
+
+/* <!-- Middle Content 2--> */
+/* .Petani {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 8%;
+}
+.Sayur {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+}
+.Pesan {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+  margin-left: 8%;
+}
+.title1 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.title2 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.title3 {
+  color: #24AD65;
+  font-size: 36px;
+}
+.paragraf1 {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragraf2 {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragraf3 {
+  color: #FF8C21;
+  font-size: 36px;
+} */
+/* <!-- End Middle Content 2 --> */
+
+/* <!-- Middle Content 3 --> */
+/* .Services {
+  display: flex;
+  justify-content: center;
+}
+.Shoping {
+  text-align: center;
+  margin-top: 15px;
+
+}.Delivery {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container-fluid{
+  background: #B7EBA7 !important;
+  border-radius: 15px;
+  height: 900px;
+}
+.shopingLogo {
+  text-align: center;
+  margin-top: 50px;
+  width: 130px;
+  height: 160;
+}
+.ShopingTitle {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.pragrafShop {
+  color: #24AD65;
+  font-size: 36px;
+}
+.deliveryLogo {
+  text-align: center;
+  height: 130;
+  width: 160;
+}
+.DeliveryTilte {
+  color: #FF8C21;
+  font-size: 36px;
+}
+.paragrafDeliv {
+  color: #24AD65;
+  font-size: 36px;
+} */
+/*  <!-- End Middle Content 3 --> */
+
+/* <!-- Middle Content 4 --> */
+/* .download {
+  text-align: center;
+  margin-top: 30px;
+}
+.container app {
+  margin-top: 20%;
+}
+.screen{ 
+  width: 235px;
+  height: 521px;
+}
+.downloadApp{ 
+  width: 341px;
+  height: 277px;
+} */
+/* <!-- End Middle Content 4  --> */
+
+/* <!-- Footer --> */
+/* .footer1 {
+  background: #045847 !important;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.tabel {
+ margin-left: 15%;
+}
+.titleContact {
+  color: #FF8C21;
+  text-align: center;
+}
+.titleBatibo {
+  color: #FF8C21;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.text1 {
+  color: #de954a;
+  margin-top: 1rem;
+  text-align: start;
+}
+.text2 {
+  color: #de954a;
+  margin-top: 20px;
+  text-align: center;
+}
+.text3 {
+  color: #de954a;
+  margin-top: 20px;
+  text-align: center;
+}
+.text4 {
+  color: #de954a;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text5 {
+  color: #de954a;
+  margin-top: 1px;
+  text-align: center;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+} */
+/* <!-- End Footer --> */
+ 
+@media (min-width: 320px) { 
+  /*welcome*/
+  .navLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .jumbotron {
+    background-image: url(images/bgHeader1.png);
+      background-size: cover;
+      height: 250px;
+      margin-top: -10px;
+      margin-left: -80px;
+  }
+  .jumbotron .Kalian {
+    color: #045847;
+    font-weight: bold;
+    font-size: 80%;
+    margin-top: 80px;
+    margin-left: 80px;
+  }
+  .jumbotron .Kalian span {
+    color: #FFA51F;
+  }
+  /* welcome */
+/* <!-- Middle Content --> */
+
+.jumbotron1 {
+  background-image: url(images/bgBatibo.png);
+  background-size: contain;
+  height: 230px;
+  margin-top: -10%;
+}
+.jumbotron1 .titleAbout {
+  color: #24AD65;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 28%;
+}
+.jumbotron1 .paragrafAbout {
+  color: #FF8C21;
+  font-size: 10px;
+  text-align: center;
+} 
+/* <!-- End Middle Content --> */
+/* <!-- Middle Content 2--> */
+.logo1{
+  margin-top: -5px;
+  width: 60px;
+  height: 55px;
+}
+.logo2{
+  margin-top: -20%;
+  align-self: flex-end;
+  width: 60px;
+  height: 55px;
+}
+.logo3{
+  margin-top: -5px;
+  width: 55px;
+  height: 55px;
+}
+.Petani {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 8%;
+}
+.Sayur {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+}
+.Pesan {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+  margin-left: 8%;
+}
+.title1 {
+  margin-left: -20%;
+  margin-top: -20%;
+  color: #24AD65;
+  font-size: 10px;
+}
+.title2 {
+  margin-top: -10%;
+  color: #24AD65;
+  font-size: 10px;
+}
+.title3 {
+  margin-left: -20%;
+  margin-top: -20%;
+  color: #24AD65;
+  font-size: 10px;
+}
+.paragraf1 {
+  margin-left: -20%;
+  color: #FF8C21;
+  font-size: 9px;
+}
+.paragraf2 {
+  color: #FF8C21;
+  font-size: 9px;
+}
+.paragraf3 {
+  margin-left: -20%;
+  color: #FF8C21;
+  font-size: 9px;
+}
+/* <!-- End Middle Content 2 --> */
+/* <!-- Middle Content 3 --> */
+.Services {
+  display: flex;
+  justify-content: center;
+}
+.Shoping {
+  text-align: center;
+  margin-top: 15px;
+
+}.Delivery {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container-fluid{
+  background: #B7EBA7 !important;
+  border-radius: 15px;
+  height: 250px;
+}
+.shopingLogo {
+  text-align: center;
+  margin-top: -10px;
+  width: 45px;
+  height: 45px;
+}
+.ShopingTitle {
+  color: #FF8C21;
+  font-size: 10px;
+}
+.pragrafShop {
+  color: #24AD65;
+  font-size: 10px;
+}
+.deliveryLogo {
+  text-align: center;
+  height: 45px;
+  width: 48px;
+}
+.DeliveryTilte {
+  color: #FF8C21;
+  font-size: 10px;
+}
+.paragrafDeliv {
+  color: #24AD65;
+  font-size: 10px;
+}
+/*  <!-- End Middle Content 3 --> */
+/* <!-- Middle Content 4 --> */
+.download {
+  text-align: center;
+  margin-top: 10px;
+}
+.screen{ 
+  width: 55px;
+  height: 95px;
+}
+.downloadApp{ 
+  margin-top: 20px;
+  width: 55px;
+  height: 55px;
+}
+/* <!-- End Middle Content 4  --> */
+/* <!-- Footer --> */
+.footer1 {
+  background: #045847 !important;
+  margin-top: 10px;
+  border-radius: 15px;
+  height: 250px;
+}
+.tabel {
+ margin-left: 1%;
+}
+.titleContact {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #FF8C21;
+  text-align: center;
+}
+.titleBatibo {
+  margin-top: 10px;
+  color: #FF8C21;
+  margin-left: 10%;
+  font-size: 10px;
+}
+.text1 {
+  font-size: 10px;
+  color: #de954a;
+  margin-top: -0,1rem;
+  text-align: start;
+}
+.text2 {
+  font-size: 10px;
+  color: #de954a;
+  margin-top: -0,1rem;
+  text-align: center;
+}
+.text3 {
+  font-size: 10px;
+  color: #de954a;
+  margin-top: -0,1rem;
+  text-align: center;
+}
+.text4 {
+  font-size: 10px;
+  color: #de954a;
+  margin-top: -0,1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text5 {
+  font-size: 10px;
+  color: #de954a;
+  margin-top: -0,1rem;
+  text-align: center;
+}
+.instagram {
+  width: 10px;
+  height: 10px;
+}
+.facebook {
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+}
+.whatsapp {
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+}
+/* <!-- End Footer --> */
+}
+
+@media (min-width: 1140px) { 
+  /* Welcome*/
+  .navLogo{
+    height: 120px;
+    width: 120px;
+  }
+  .jumbotron {
+    background-image: url(images/bgHeader1.png);
+      background-size: cover;
+      height: 900px;
+      margin-top: -145px;
+  }
+  .jumbotron .Kalian {
+    color: #045847;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 350px;
+  }
+  .jumbotron .Kalian span {
+    color: #FFA51F;
+  } 
+  /*end welcome*/
 /* <!-- Middle Content --> */
 
 .jumbotron1 {
@@ -66,7 +524,6 @@ html {
   text-align: center;
 } 
 /* <!-- End Middle Content --> */
-
 /* <!-- Middle Content 2--> */
 .Petani {
   text-align: center;
@@ -110,7 +567,6 @@ html {
   font-size: 36px;
 }
 /* <!-- End Middle Content 2 --> */
-
 /* <!-- Middle Content 3 --> */
 .Services {
   display: flex;
@@ -157,7 +613,6 @@ html {
   font-size: 36px;
 }
 /*  <!-- End Middle Content 3 --> */
-
 /* <!-- Middle Content 4 --> */
 .download {
   text-align: center;
@@ -171,11 +626,11 @@ html {
   height: 521px;
 }
 .downloadApp{ 
+  margin-top: 90px;
   width: 341px;
   height: 277px;
 }
 /* <!-- End Middle Content 4  --> */
-
 /* <!-- Footer --> */
 .footer1 {
   background: #045847 !important;
@@ -235,39 +690,4 @@ html {
   margin-left: 20px;
 }
 /* <!-- End Footer --> */
-/*  
-@media (min-width: 320px) { 
-  .jumbotron{
-    background-image: url(images/bgHeader1.png);
-    background-size: cover;
-    height: 500px;
-    width: 70vh;
-    margin-top: -145px;
-  }
-  .jumbotron .kalian {
-    color: #045847;
-    font-weight: bold;
-    font-size: 100px;
-    text-align: start;
-    margin-top: 100px;
-  }
-  .jumbotron1 {
-    background-image: url(images/bgBatibo.png);
-    background-size: cover;
-    height: 500px;
-    margin-top: -32px;
-  }
-}  */
-
-
-/* @media (min-width: 992px) { 
-  .jumbotron {
-    background-image: url(images/bgHeader1.png);
-      background-size: cover;
-      height: 900px;
-      width: 100%;
-      margin-top: -145px;
-  }
- 
- } */
-
+}
